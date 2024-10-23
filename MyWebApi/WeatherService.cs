@@ -4,7 +4,7 @@ public class WeatherService
 {
     private readonly string[] summaries =
     [
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Tropical"
     ];
 
     public WeatherForecast[] GetWeather() 
